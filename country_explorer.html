@@ -164,6 +164,7 @@ var countryEssay = "No essay yet";
 			var geocoder = new google.maps.Geocoder();
 			MarkACountry(geocoder, "United States")
 			MarkACountry(geocoder, "Canada")
+			MarkACountry(geocoder, "Bermuda")
 			MarkACountry(geocoder, "Spain")
 		}
 		else if (chosen == "SeaLevelRise") {
@@ -171,11 +172,11 @@ var countryEssay = "No essay yet";
 			var geocoder = new google.maps.Geocoder();
 			MarkACountry(geocoder, "United States")
 			MarkACountry(geocoder, "Canada")
+			MarkACountry(geocoder, "Bermuda")
+			MarkACountry(geocoder, "Japan")
 			MarkACountry(geocoder, "Spain")
 			MarkACountry(geocoder, "Mexico")
 			MarkACountry(geocoder, "Maldives")
-			MarkACountry(geocoder, "Bermuda")
-			MarkACountry(geocoder, "Japan")
 			MarkACountry(geocoder, "Taiwan")
 		}
 		else if (chosen == "Deforestation") {
@@ -183,11 +184,6 @@ var countryEssay = "No essay yet";
 			var geocoder = new google.maps.Geocoder();
 			MarkACountry(geocoder, "Mexico")
 			MarkACountry(geocoder, "Australia")
-		}
-		else if (chosen == "df") {
-			clearOverlays();
-			var geocoder = new google.maps.Geocoder();
-			MarkACountry(geocoder, "Nigeria")
 		}
 		else {
 		//	alert(chosen)
